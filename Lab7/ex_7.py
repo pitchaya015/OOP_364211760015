@@ -13,6 +13,7 @@ class Labtop:
         self.__display = display
         self.__storage = storage
         self.__price = price
+
     def get_brand(self):
         return self.__brand
     def set_brand(self,brand):
